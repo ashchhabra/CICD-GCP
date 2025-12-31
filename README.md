@@ -10,3 +10,15 @@ https://www.skills.google/course_templates/691/labs/612996
 In this lab, you create a continuous integration and continuous deployment (CI/CD) pipeline that automatically builds a container image from committed code, stores the image in Artifact Registry, updates a Kubernetes manifest in a Git repository, and deploys the application to Google Kubernetes Engine using that manifest.
 
 <img width="1600" height="434" alt="image" src="https://github.com/user-attachments/assets/1e478fe6-2c0f-4cca-844a-d1d2194c2fb6" />
+
+
+## Challenge
+
+
+PRE-WORK - Enable APIs, Create GKE clusters and create a Docker repository in Artifact Registry.
+Clone source code, build image, and push to artifact registry.
+Create delivery pipeline, targets, and release.
+Rebuild and push image, tag with latest.
+Create new release with latest version.
+Promote the latest release to second cluster.
+Rollback changes to second cluster, modify, and re-release.

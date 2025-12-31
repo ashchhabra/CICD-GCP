@@ -1,4 +1,4 @@
-# CICD-GCP
+# Implement CI/CD Pipeline on Google Cloud
 
 
 ## Artifact Registry
